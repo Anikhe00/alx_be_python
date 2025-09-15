@@ -5,7 +5,7 @@ task = input("Enter your task: ").capitalize()
 priority = input("Priority (high/medium/low): ").lower()
 
 # Ask the user if the task is time_bound
-time_bound = input("Is it time-bound? (yes, no): ").lower()
+time_bound = input("Is it time-bound? (yes/no): ").lower()
 
 # Initialize reminder as an empty string
 reminder = ""
