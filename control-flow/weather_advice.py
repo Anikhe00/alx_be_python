@@ -1,5 +1,5 @@
 # Ask user to input weather from a predefined set of conditions
-weather = input("What's the weather like today?\n(sunny/rainy/cold): ").lower()
+weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 
 # Based on the user’s input, your program will recommend different types of clothing
 if weather == "sunny":
