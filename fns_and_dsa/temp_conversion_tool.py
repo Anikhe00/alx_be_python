@@ -1,7 +1,7 @@
 # Define two global variables to store the conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 # Write a function to convert fahrenheit to celsius
 def convert_to_celsius(fahrenheit):
@@ -16,7 +16,7 @@ def convert_to_fahrenheit(celsius):
   return fahrenheit
 
 # Prompt the user to enter a temperature and specify whether it’s in Celsius or Fahrenheit.
-temperature = int(input("Enter the temperature to convert: ").upper())
+temperature = int(input("Enter the temperature to convert: "))
 unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ").upper()
 
 # Based on the user’s input, call the appropriate conversion function and display the converted temperature.
